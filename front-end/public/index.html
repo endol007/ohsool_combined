@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1RSVH80T25"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1RSVH80T25');
+    </script>
+    
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=&libraries=services"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-messaging.js"></script>
+
+    <meta charset="utf-8" />
+    <!--mobile IOS notch-->
+    <meta name="viewport" content="initial-scale=1, viewport-fit=cover, width=device-width, maximum-scale=1.0, user-scalable=0"></meta>
+    <meta name="apple-mobile-web-app-capable" content="yes"></meta>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></meta>
+    
+    <meta name="theme-color" content="#000000" />
+
+    <meta name="description" content="안녕하세요. 맥주 추천사이트 오늘의 술, 오술입니다. 오술에서 다양한 종류의 맥주를 비교해보세요."/>
+    <meta name="keywords" content="맥주 추천, 맥주, 추천,술,비교"  />
+    <meta property="og:title" content="오늘의 술, ohsool"/>
+    <meta property="og:image" content="./mainbeer.jpeg" />
+    <meta property="og:site_name" content="ohsool" />
+    <meta property="og:description" content="안녕하세요. 맥주 추천사이트 오늘의 술, 오술입니다. 오술에서 다양한 종류의 맥주를 비교해보세요." />
+
+    <meta name="twitter:title" content="오늘의 술, ohsool" />
+    <meta name="twitter:image" content="./mainbeer.jpeg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="안녕하세요. 맥주 추천사이트 오늘의 술, 오술입니다. 오술에서 다양한 종류의 맥주를 비교해보세요." />
+    
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="apple-touch-icon" sizes="192x192" href="ohsoolIcon150.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="ohsoolIcon512.png">
+
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>오늘의술</title>
+  <style type="text/css">
+  </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Fonts to support Material Design -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <!-- Icons to support Material Design -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <div id="root">
+    </div>
+    <script>
+      if ('serviceWorker' in navigator) { //서비스워커 불러오는 파트
+          window.addEventListener('load', function() {
+              navigator.serviceWorker.register('./worker.js')
+              .then(function(registration) {
+                // console.log(registration);
+              }, function(err) {
+                  // console.log('Worker registration failed', err);
+              }).catch(function(err) {
+                  // console.log(err);
+              });
+          });
+      }
+    </script>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

@@ -1,0 +1,23 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 10
+    commands:
+      - echo start
+  pre_build:
+    commands:
+      - npm install
+      - echo npm installed
+      - export NODE_ENV=test
+  build:
+    commands:
+      - npm run test
+  post_build:
+    commands:
+      - echo test completed
+artifacts:
+  files:
+    - "**/*"
+

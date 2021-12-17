@@ -1,0 +1,30 @@
+.whiteInput {
+    height: 226px;
+    width: 312px;
+    margin: 0 auto;
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.whiteInput::-webkit-input-placeholder {
+    width: 180px;
+    color: #888888;
+    margin: 15px;
+    position: absolute;
+}
+
+.yellowInput {
+    height: 226px;
+    width: 312px;
+    margin: 0 auto;
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #FdF9F0;
+}
+.yellowInput::-webkit-input-placeholder {
+    width: 180px;
+    color: #888888;
+    margin: 15px;
+    position: absolute;
+}

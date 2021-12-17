@@ -1,0 +1,59 @@
+.black_header{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 45px;
+    color: #333333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.white_header{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 45px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.headerTest{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    height: 45px;
+}
+
+.iphoneHeaderTest{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    height: 85px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    height: 45px;
+    z-index: 9000;
+}
+
+.iphoneHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    height: 85px;
+    z-index: 9000;
+}

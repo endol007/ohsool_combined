@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .header{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            position: absolute;
+            width: 360px;
+            height: 200px;
+            top: 30%;
+            left: 50%;
+            margin-left: -170px;
+            margin-top: -25px;
+        }
+        p{
+            margin: 0 auto;
+            font-size: 20px;
+            color: #151515;
+        }
+        .oslink{
+            margin: 0 auto;
+            width: 150px;
+            height: 60px;
+            border: 0.5px solid #FFC44F;
+            border-radius: 20px;
+            background-color: #FFC44F;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <p>네트워크 연결상태가 좋지않습니다.<br/>
+             인터넷 연결상태를 확인해주세요.
+            </p>
+            <br/>
+            <button 
+            onClick="Click()"
+            class="oslink">오술페이지 돌아가기</button>
+        </div>
+    </body>
+    <script>
+        function Click(){
+            window.location.href = "https://ohsool.com"
+        }
+    </script>
+</html>

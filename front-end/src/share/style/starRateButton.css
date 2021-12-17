@@ -1,0 +1,15 @@
+.smallsize{
+    width: 13.33px;
+    height: 13.33px;
+}
+
+.bigsize{
+    width: 36px;
+    height: 36px;
+}
+
+.bigsizeClick{
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}

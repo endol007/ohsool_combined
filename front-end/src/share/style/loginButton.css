@@ -1,0 +1,61 @@
+.whiteButton{
+    display: inline-block;
+    width: 312px;
+    height: 47px;
+    margin: 5px auto;
+    padding-top: 12.5px;
+    border: 0.5px solid #FFB521;
+    box-sizing: border-box;
+    border-radius: 22.5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFB521;
+    cursor: pointer;
+}
+
+.yellowButton{
+    display: inline-block;
+    width: 312px;
+    height: 47px;
+    margin: 5px auto;
+    padding-top: 12.5px;
+    background-color: #FFB521;
+    box-sizing: border-box;
+    border-radius: 22.5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #151515;
+    cursor: pointer;
+}
+
+.inputCheckDoubleEmailRed{
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 10px;
+    font-size: 10px;
+    color: #FF1010;
+}
+.inputCheckDoubleEmailGreen{
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 10px;
+    font-size: 10px;
+    color: green;
+}
+
+.inputCheckDoubleNicknameRed{
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 24px;
+    font-size: 10px;
+    color: #FF1010;
+}
+.inputCheckDoubleNicknameGreen{
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 24px;
+    font-size: 10px;
+    color: green;
+}

@@ -1,0 +1,47 @@
+.buttonContainer{
+    float: left;
+    width: 148px;
+    height: 33x;
+    padding-bottom: 13px;
+    color: #C4C4C4;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2.5px solid #FFFFFF;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.clickedButtonContainer{
+    float: left;
+    width: 148px;
+    height: 33x;
+    padding-bottom: 13px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2.5px solid #212121;
+    cursor: pointer;
+}
+
+.clickSlider {
+    font-size: 16px;
+    outline: none;
+    font-weight: 700;
+    padding: 0 13px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    /* text-decoration: underline; */
+}
+
+.nonClickSlider{
+    color: #C4C4C4;
+    font-size: 16px;
+    outline: none;
+    padding: 0 13px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+    {
+    "question_1": [{
+        "question_id": 1,
+        "questionNum": "Q1",
+        "question": "맥주 바디감",
+        "answer": ["LightBody", "MeduemBody", "FullBody"]
+    }],
+    
+    "question_light": [{
+        "question_id": "LightBody",
+        "questionNum": "",
+        "question": "탄산",
+        "answer": [{"crispy" : "YES"}, {"bitter": "NO"}]
+    },
+    {
+        "question_id": "crispy",
+        "questionNum": "",
+        "question": "청량감",
+        "answer": [{"American Lager" : "YES"},{"Pilsner": "NO"}]
+    },
+    {
+        "question_id": "MediumBody",
+        "questionNum": "",
+        "question": "쌉쌀한맛 or 진한맛",
+        "answer": [{"Bitter" : "YES"},{"STRONG": "NO"} ]
+    },
+    {
+        "question_id": "Bitter",
+        "questionNum": "",
+        "question": "과일맛 or 고소한맛",
+        "answer": [{"Fruity" : "YES"},{"Dunkel" : "NO"}]
+    },
+    {
+        "question_id": "Fruity",
+        "questionNum": "",
+        "question": "Hoppy or Softy",
+        "answer": [{"Hoppy" : "YES"}, {"Weizen": "NO"}]
+    },
+    {
+        "question_id": "Hoppy",
+        "questionNum": "",
+        "question": "Hoppy",
+        "answer": [{"Pale Ale" : "YES"}, {"IPA": "NO"}]
+    },
+    {
+        "question_id": "Strong",
+        "questionNum": "",
+        "question": "Strong",
+        "answer": [{"Bock" : "YES"}, {"Stout": "NO"}]
+    }]
+}
